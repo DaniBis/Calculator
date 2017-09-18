@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="calculatorstyle.css">	
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="calculatorscript.js"></script>
+</head>
+<body>
+	<div id="calculator">
+		<div class="form-group inputs">
+			<input type="text" class="form-control" id="input_expresion" placeholder="expresie" name="input_expresion" readonly>		
+			<input type="text" class="form-control" id="input_result" placeholder="rezultat" name="input_result" readonly>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="7">7</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="8">8</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="9">9</button>
+			<button class="btn btn-primary btnop" autocomplete="off"   value="/">/</button>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary btnnr" autocomplete="off"  value="4">4</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"  value="5">5</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"  value="6">6</button>
+			<button class="btn btn-primary btnop" autocomplete="off"  value="*">*</button>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="1">1</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="2">2</button>
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="3">3</button>
+			<button class="btn btn-primary btnop" autocomplete="off"   value="-">-</button>
+		</div>
+		<div class="form-group" id="special_class">
+			<button class="btn btn-primary btnnr" autocomplete="off"   value="0">0</button>
+			<button class="btn btn-primary btnop" autocomplete="off"   value="+">+</button>
+			<button class="btn btn-primary egal" autocomplete="off">=</button>
+		</div>
+	</div>
+</body>
+</html>
